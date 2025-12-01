@@ -1,0 +1,42 @@
+name: 🐞 Bug report
+description: Report an issue
+type: Bug
+labels: [pending triage]
+body:
+  # - type: markdown
+  #   attributes:
+  #     value: |
+  #       **Before You Start...**
+
+  #       This form is only for submitting bug reports. If you have a usage question
+  #       or are unsure if this is really a bug, make sure to:
+  #       - Read the docs
+  #       - Ask on GitHub Discussions
+
+  #       Also try to search for your issue - it may have already been answered or even fixed in the development branch.
+  #       However, if you find that an old, closed issue still persists in the latest version,
+  #       you should open a new issue using the form below instead of commenting on the old issue.
+
+  # - type: textarea
+  #   id: reproduction-link-or-steps
+  #   attributes:
+  #     label: Reproduction link or steps
+  #     placeholder: Reproduction link or steps
+  #   validations:
+  #     required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: |
+        A clear and concise description of what the bug is.
+        If applicable, add screenshots and log to help explain your problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: Any additional comments?
+      description: e.g. some background/context of how you ran into this bug.
